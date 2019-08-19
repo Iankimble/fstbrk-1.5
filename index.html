@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FST-BRK 1.5</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobileStyle.css">
+    <link rel="stylesheet" href="./css/mobileStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Russo+One|Squada+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav class="nav" id="nav-container">
+        <a href="index.html" class="logo"> FST BRK V.1.5 </a>
+    </nav>
+
+    <!--Main game container-->
+    <div class="main_game_container"></div>
+    <div id="imgBg">
+
+        <img src="heroLand.png" id="landingImg">
+       
+        <!--Begin game-->
+        <div class="start_container">
+            <button id="Play"> Play Now !</button>
+        </div>
+
+        <div id="user_char_header"></div>
+        <div id="opp_char_header"></div>
+
+        <div id="userCharContainer"></div>
+        <div id="oppCharContainer"></div>
+
+        <div id="court_header"></div>
+        <div id="courtSlctContainer"></div>
+
+        <div id="gameOver"></div>
+
+
+        <!--Info-->
+        <div id="gameInfoContainer">
+
+            <div id="userStatus">
+                <div id="user_charInfo"></div>
+                <div id="user_score"></div>
+            </div>
+
+            <div id="compStatus">
+                <div id="comp_charInfo"></div>
+                <div id="comp_score"></div>
+            </div>
+
+            <div id="court_slct_info"></div>
+        </div>
+
+        <!--Game art-->
+        <img id="user_display">
+        <img id="comp_display">
+
+        <!-- Game move-->
+        <div id="moveContainer">
+            <div id="user_move"></div>
+            <div id="computer_move"></div>
+
+            <div id="match_response"></div>
+
+        </div>
+        <div id="buttonSpace"></div>
+
+    </div>
+    <!--Game button container-->
+    <div id="gameButtonContainer">
+        <div id="offensive_button_container"></div>
+        <div id="defensive_button_container"></div>
+    </div>
+
+    <!--reset game-->
+    <div id="game_reset"></div>
+    </div>
+
+    <!--<div id="instructions">
+        <h3>Instructions</h3>
+    </div>-->
+
+    <script src="./javascript/userCharScript.js"></script>
+    <script src="./javascript/oppCharScript.js"></script>
+    <script src="./javascript/courtScript.js"></script>
+    <script src="./javascript/gameDisplayScript.js"></script>
+    <script src="./javascript/gameLogicScript.js"></script>
+</body>
+
+</html>

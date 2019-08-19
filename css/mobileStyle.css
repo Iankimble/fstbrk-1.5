@@ -1,0 +1,144 @@
+@media only screen and (max-width: 425px){
+    body{
+    background-size: 100%;
+    margin: 0%;
+    padding: 0;
+    display:grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto auto auto auto auto auto;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    background-color: lightgray;
+    }
+
+    .nav{
+        background-color: #6b3d2e;
+        grid-column: 1;
+        grid-row: auto;
+    
+    }
+
+    #landingImg{
+        height: 300px;
+        width: 100%;
+        margin: 0px;
+        align-content: space-around;
+    }
+
+    .main_game_container{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #imgBg{
+        grid-column: 1;
+        grid-row: 2;
+        }
+
+    .courtImg{
+        height: 200px;
+        width: 100%;
+        margin: 0;
+    }
+
+    #gameButtonContainer{
+        grid-column: 1;
+        grid-row: 5;
+        margin-top: 50px;
+        display: block;
+        margin-top: 100px;
+    }
+
+    .displayCourtImg{
+        width: 100%;
+        height: 250px;
+        grid-column: 1;
+        grid-row: 3px;
+        padding-top: 30px;
+    }
+        
+    .userDisplayImg{
+        height: 125px;
+        width: 125px;
+        float: left;
+        position: relative;
+        margin-left: 25px;
+    }
+        
+    .compDisplayImg{
+        height: 125px;
+        width: 125px;
+        float:right;
+        position: relative;
+        margin-right: 25px;
+    }
+
+    #userStatus{
+        background-color: black;
+        border-style: solid;
+        display: inline-block;
+        float: left;
+        margin-left: 50px;
+        position: relative;
+        align-content: space-around;
+        height: 20px;
+        font-size: 12px;
+        color: greenyellow;
+        font-family: 'Press Start 2P', cursive;
+        border-style: solid;
+        border-width: 3px;
+        border-color: orange;   
+    }
+            
+    #compStatus{
+        background-color: black;
+        border-style: solid;
+        display: inline-block;
+        float: right;
+        margin-right: 50px;
+        position: relative;
+        align-content: space-around;
+        height: 20px;
+        font-size: 12px;
+        color: greenyellow;
+        font-family: 'Press Start 2P', cursive;
+        border-style: solid;
+        border-width: 3px;
+        border-color: orange;  
+    }
+
+    #user_move{
+        float: left;
+        margin-left: 10px;
+        font-size: 15px;
+        margin: 5px;
+    }
+                
+    #computer_move{
+        float: right;
+        margin-right: 10px;
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    #outcome{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        align-content: space-around;
+        margin: 5px;
+    }
+
+    #match_response{
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    #computer_move{
+        color:white;
+    }
+
+    #user_move{
+        color:white;
+    }
+}
